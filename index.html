@@ -37,6 +37,11 @@
     <div id="status"></div>
 
     <script>
+        let status = document.getElementById("status");
+        if(status.innerText === null || status.innerText === ""){
+            status.innerText = window.navigator.onLine ? "You're online" : "You're offline";
+        }
+
         window.ononline = function (ev) {
             document.getElementById("status").innerText = "You're online";
         };
