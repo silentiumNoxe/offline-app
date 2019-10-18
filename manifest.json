@@ -2,7 +2,7 @@
   "name": "offline app",
   "short_name": "OfflineApp",
   "lang": "ru",
-  "start_url": "/",
+  "start_url": "/offline-app/",
   "display": "standalone",
   "icons": [
     {
