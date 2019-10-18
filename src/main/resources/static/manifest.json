@@ -1,0 +1,7 @@
+{
+  "name": "offline app",
+  "short_name": "OfflineApp",
+  "lang": "ru",
+  "start_url": "/",
+  "display": "standalone"
+}
